@@ -57,28 +57,10 @@ public class TaskController {
 
 * Configure o banco de dados H2 no arquivo `application.properties`:
 
-```
+```properties
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
 spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-
 ```
-
-
-#### 5. DOCUMENTATION.md
-```markdown
-# Documentação da API
-
-Este documento detalha os endpoints disponíveis na API de Tarefas.
-
-## Endpoints
-
-- **GET /tasks**: Retorna todas as tarefas.
-- **POST /tasks**: Cria uma nova tarefa.
-- **GET /tasks/{id}**: Retorna uma tarefa específica pelo ID.
-- **PUT /tasks/{id}**: Atualiza uma tarefa existente.
-- **DELETE /tasks/{id}**: Remove uma tarefa pelo ID.
-
-Para mais detalhes sobre cada endpoint, consulte a documentação gerada automaticamente disponível em `/swagger-ui.html` após iniciar a aplicação.
