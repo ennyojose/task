@@ -20,6 +20,7 @@
     <artifactId>hibernate-core</artifactId>
     <version>4.x.x</version>
 </dependency>
+´´´
 
 ´´´java
 @Entity
@@ -33,3 +34,4 @@ public class Task {
 
     // Getters e Setters
 }
+´´´´
