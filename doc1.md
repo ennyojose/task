@@ -20,9 +20,9 @@
     <artifactId>hibernate-core</artifactId>
     <version>4.x.x</version>
 </dependency>
-´´´
+```
 
-´´´java
+```java
 @Entity
 public class Task {
     @Id
@@ -34,4 +34,4 @@ public class Task {
 
     // Getters e Setters
 }
-´´´´
+```
