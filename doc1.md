@@ -4,6 +4,7 @@
     * Baixe a versão 3.x do Spring Framework.
     * Adicione os arquivos JAR às bibliotecas de seu projeto.
 * Inclua as dependências necessárias no arquivo pom.xml (caso use Maven) ou manualmente nas bibliotecas:
+
 ```xml
 <dependency>
     <groupId>org.springframework</groupId>
@@ -20,18 +21,4 @@
     <artifactId>hibernate-core</artifactId>
     <version>4.x.x</version>
 </dependency>
-```
-
-```java
-@Entity
-public class Task {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String title;
-    private String description;
-    private boolean completed;
-
-    // Getters e Setters
-}
 ```
